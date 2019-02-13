@@ -19,8 +19,8 @@ LiquidCrystal_PCF8574 lcd(0x27);  // set the LCD address to 0x27 for a 16 chars 
 
 // Setted wifi name and passwrod also included write API key for ThinkSpeak and defining fields
 
-String AP = "Supu";       // CHANGE ME
-String PASS = "12345678"; // CHANGE ME
+String AP = "Samarkand";       // CHANGE ME
+String PASS = "TimurIsTheBest225580"; // CHANGE ME
 String API = "O5R2BXR7OMESYUM9";   // CHANGE ME
 String HOST = "184.106.153.149";
 String PORT = "80";
