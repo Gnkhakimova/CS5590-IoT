@@ -1,0 +1,19 @@
+from twython import Twython
+
+ 
+
+# fill in your 4 keys in following variables
+
+C_key = "66AMWxKfJTP4EEPH6WGhH9pjs"
+
+C_secret = "hvrgM3lfWVAChq6InIHLhP96ir9MgbroZEJnzGIRvOEUVPvrYa"
+
+A_token = "926091370363793413-3s8ZdfU7sK83Q6P6iXYAhn8GR7FMxe1"
+
+A_secret = "5dDUse3ekgsIZ7LMnJnIdgAwKkTkWCgr2PdVhqzX8L4Rx"
+
+ 
+
+myTweet = Twython(C_key,C_secret,A_token,A_secret)
+
+myTweet.update_status(status="ICP8 Testing")
